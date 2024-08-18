@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['https://bookmarket.onrender.com'],
+    'allowed_origins' => ['*'], // change this
 
     'allowed_origins_patterns' => [],
 
