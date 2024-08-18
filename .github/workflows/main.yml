@@ -28,3 +28,6 @@ jobs:
           context: .
           push: true
           tags: ${{ vars.DOCKERHUB_USERNAME }}/book_market-be:latest
+
+      - name: Execute curl command
+        run: curl ${{ secrets.RENDER_API }}
